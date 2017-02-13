@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+
+    // Called on body's `onload` event
+    function init() {
+        // Retrieving the text input's value which was stored into localStorage
+        var uid = localStorage.getItem("userid");
+
+        // Writing the value in the document
+        document.write("passed value = "+uid);
+    }
+
+</script>
+</head>    
+
+<body onload="init();">
+
+</body>
+
+</html>
